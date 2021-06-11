@@ -1,0 +1,24 @@
+.slide-container{
+    height:70vh;
+    overflow:hidden;
+    .react-slideshow-container{
+        display: flex;
+        transform: translate(0px,-20%);
+    }
+}
+
+@media screen and (max-width: 960px){
+.slide-container{
+    height: 50vh;
+    overflow: hidden;
+    Zoom{
+        transform: translate(0px, -25%);
+    }
+    .react-slideshow-container {
+        
+        display: flex;
+        transform: translate(0px, -25%);
+        align-items: center;
+    }
+}
+}

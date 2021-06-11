@@ -1,0 +1,24 @@
+.Container{
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    background-image:linear-gradient(rgb(219, 219, 219),white,white);
+    .Container__wrapper{
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        align-items: center;
+        img{
+            margin: 30px;
+            width:30vw;
+        }
+        h2{
+            align-content: center;
+            font-family: 'Lato',sans-serif;
+            font-weight: 600;
+            font-size: 40px;
+            padding: 30px;
+        }
+    }
+}

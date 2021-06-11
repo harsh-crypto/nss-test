@@ -1,0 +1,33 @@
+.Container--wrapper{
+    margin: 100px;
+    display: grid;
+    grid-gap: 100px;
+    grid-template-rows: repeat(5, auto);
+    .comp{
+        border-right: solid 1px red;
+        padding-right: 20px;
+        display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    text-align: left;
+    width: max-content;
+        .heading{
+            z-index: 10;
+    font-weight: 800;
+    text-align: inherit;
+    color: chocolate;
+    text-rendering: optimizeLegibility;
+    max-width: 60vw;
+        }
+        .content{
+            width: fit-content;
+            margin-top: 40px;
+            width: 60vw;
+            margin-left:80px;
+            ul{
+                list-style: none !important;
+            }
+        }
+    }
+}
